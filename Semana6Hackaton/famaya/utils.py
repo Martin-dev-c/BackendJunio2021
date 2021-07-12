@@ -53,4 +53,4 @@ class Menu:
         def clear():
             # return os.system('cls')
             return os.system('clear')
-        clear()
+        clear() 

@@ -1,11 +1,9 @@
-
-class profesor:
-    def __init__(self,codigo_profesor,nombres,dni,edad,email):
-        self.codigo_profesor = codigo_profesor
-        self.nombres = nombres
+class Profesor:
+    def __init__(self,nombre,dni,edad,correo):
+        self.nombres = nombre
         self.dni = dni
         self.edad = edad
-        self.email = email
-    
+        self.correo = correo
+
     def __str__(self) -> str:
-        return f"{self.codigo_profesor} - {self.nombres}"
+        return f"{self.nombres} {self.dni} {self.edad} {self.correo}"
